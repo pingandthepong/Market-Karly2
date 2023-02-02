@@ -593,7 +593,7 @@ nav.active::after {
   justify-content: space-between;
 }
 
-.footer-middle button {
+.footer-middle > div {
   height: 48px;
   display: flex;
   font-size: 10px;
@@ -602,11 +602,10 @@ nav.active::after {
   text-align: left;
   margin-top: var(--spacing-lg);
   letter-spacing: -0.3px;
-  cursor: pointer;
   flex: none;
 }
 
-.footer-middle button p {
+.footer-middle .description {
   padding-left: var(--spacing-xs);
   color: var(--content);
 }
@@ -626,6 +625,8 @@ nav.active::after {
 .wooriBank {
   width: 283px;
 }
+
+
 
 /* footer-bottom */
 .footer-bottom {
